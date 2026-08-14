@@ -1,4 +1,4 @@
-# Target-Acquisition-and-Tracking
+```mermaid
 graph TD
     subgraph Inputs ["1. 輸入來源 (Dual Input Pipelines)"]
         direction TB
@@ -40,3 +40,4 @@ graph TD
 
     YOLO -->|畫框影像疊加| RECORD
     QGC -->|畫面擷取| RECORD
+```
